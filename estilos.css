@@ -1,0 +1,85 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+/* Estilos de Portada */
+.portada {
+    position: relative;
+    display: inline-block;
+}
+
+.portada img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.portada h1 {
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    text-align: center;
+    font-size: 4rem;
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    text-shadow: 2px 2px 6px #505050;
+}
+
+.portada p {
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Estilos de div con class "marcas" */
+.marcas {
+    padding: 10px;
+}
+
+.marcas h2 {
+    font-size: 2rem;
+}
+
+
+/* Estilos de Post*/
+.post img {
+    height: 600px;
+    width: 400;
+}
+
+
+
+/*Estilos Footer*/
+footer {
+    background-color: #222 ;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color:#fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
